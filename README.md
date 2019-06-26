@@ -42,7 +42,7 @@ En esta sección se enumeran los pasos para colocar el archivo "MiPOT.framework"
 En esta sección se detallarán los pasos necesarios para que MiPOT funcione con tu
 aplicación.
 
-**1) Definir los permisos necesarios en nuestro archivo Info.plist.**
+**1. Definir los permisos necesarios en nuestro archivo Info.plist.**
 
 Para integrar MiPOT a tu aplicación se requiere agregar un permiso en la categoría "Information Property List". Para ello:
 
