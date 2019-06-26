@@ -8,11 +8,11 @@ Este es el repositorio oficial para las versiones de SDK del dispositivo MiPOT
 
 ENDPOINT: Solicitar por correo a ricardo@atomicthings.com
 
-Agregar header "Authentication" en la petición
-y como valor el base64 de "Basic packageName:KEY"
+Agregar header "Authentication" en la petición.
+y como valor el base64 de "Basic packageName:KEY".
 
 Donde:
-* packageName es el Bundle Identifier de la aplicación
+* packageName es el Bundle Identifier de la app.
 * KEY es una cadena suministrada por Atomic Things.
 
 
@@ -20,7 +20,7 @@ Este SDK aplica para la versión de firmware de MiPOT v0.96L en adelante.
 
 ### Guía de inicio
 
-Para iniciar, únicamente es necesario descargar el archivo MiPOT.framework
+Para iniciar, únicamente es necesario descargar el archivo MiPOT.framework.
 
 ### Prerequisitos
 
@@ -28,11 +28,11 @@ Para iniciar, únicamente es necesario descargar el archivo MiPOT.framework
 * Xcode 10
 * MacOS Mojave 10.14
 
-### Installing
-En esta sección se enumeran los pasos para colocar el archivo MiPOT.framework en un lugar adecuado para su consumo.
+### Instalación
+En esta sección se enumeran los pasos para colocar el archivo "MiPOT.framework" en un lugar adecuado para su consumo.
 
-1) En la carpeta raíz de tu proyecto (ejemplo: ~/Documents/iOSDev/MiApp) crea una carpeta llamada "Frameworks". Aunque este paso es opcional, es muy recomendable para mantener orden en tu proyecto.
-2) Coloca en una carpeta o subcarpeta de tu proyecto (ejemplo: ~/Documents/iOSDev/MiApp/Frameworks) el archivo MiPOT.framework.
+1) Crear una carpeta llamada "Frameworks" en la carpeta raíz de tu proyecto (ejemplo: ~/Documents/iOSDev/MiApp). Este paso es opcional así como recomendable para mantener orden en tu proyecto.
+2) Colocar el archivo "MiPOT.framework" en una carpeta o subcarpeta de tu proyecto (ejemplo: ~/Documents/iOSDev/MiApp/Frameworks).
 
 (imagen)
 
