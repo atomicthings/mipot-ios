@@ -42,7 +42,7 @@ En esta sección se enumeran los pasos para colocar el archivo "MiPOT.framework"
 En esta sección se detallarán los pasos necesarios para que MiPOT funcione con tu
 aplicación.
 
-1) Definir los permisos necesarios en nuestro archivo Info.plist.
+**1) Definir los permisos necesarios en nuestro archivo Info.plist.**
 
 Para integrar MiPOT a tu aplicación se requiere agregar un permiso en la categoría "Information Property List". Para ello:
 
@@ -53,7 +53,7 @@ Para integrar MiPOT a tu aplicación se requiere agregar un permiso en la catego
   5) Escribir en el campo "Value" de este permiso en cuestión la siguiente descripción: "Esta app utilizará la cámara para escanear códigos QR".
 (imagen)
 
-2) Insertar el framework en tu proyecto.
+**2) Insertar el framework en tu proyecto.**
 
 a) Ir al área de navegación.
 b) Mostrar la lista de proyectos y targets y seleccionar el target.
@@ -65,7 +65,7 @@ g) Dirigirse a la dirección en la que se encuentra el archivo MiPOT.framework.
 h) Seleccionar archivo y dar click en "Open".
 i) Verificar que en la ventana emergente se encuentren seleccionadas las opciones "Copy items if needed" y "Create folder references".
 
-3) Realizar una prueba de verificación.
+**3) Realizar una prueba de verificación.**
 
 Esta prueba es opcional pero es muy útil para verificar que el framework se logró integrar correctamente. Con fines de aislar esta prueba realizamos los siguientes pasos.
 
