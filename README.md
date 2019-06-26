@@ -69,8 +69,8 @@ Para integrar MiPOT a tu aplicación se requiere agregar un permiso en la catego
 
 Esta prueba es opcional pero es muy útil para verificar que el framework se logró integrar correctamente. Con fines de aislar esta prueba realizamos los siguientes pasos.
 
-a) Creamos un nuevo archivo .swift en nuestro proyecto y le daremos el nombre de "Prueba.swift"
-b) Escribimos en la sección de importaciones del archivo "import MiP".
+1) Creamos un nuevo archivo .swift en nuestro proyecto y le daremos el nombre de "Prueba.swift"
+2) Escribimos en la sección de importaciones del archivo "import MiP".
 
 Si en las opciones de autocompletado aparece MiPOT, el framework se ha añadido exitosamente al proyecto. De ser así, el archivo "Prueba.swift" se puede eliminar del proyecto.
 
