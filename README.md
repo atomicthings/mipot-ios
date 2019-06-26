@@ -77,6 +77,7 @@ Si en las opciones de autocompletado aparece MiPOT, el framework se ha añadido 
 ## Lector QR  
 
 **Paso 1: Leer QR**
+
 Para abrir el escaner con la acción de un botón tenemos el siguiente código:
 
 ```
@@ -85,7 +86,7 @@ Para abrir el escaner con la acción de un botón tenemos el siguiente código:
         escanearQR.presentQrController(self)
     }
 ```
-Atención!: Vale la pena recalcar que el framework de MiPOT no provee los permisos de cámara. Estos deben ser añadidos en el archivo "Info.plist" como se indica en el punto 1 del apartado "Integración".
+**Atención**: Vale la pena recalcar que el framework de MiPOT no provee los permisos de cámara. Estos deben ser añadidos en el archivo "Info.plist" como se indica en el punto 1 del apartado "Integración".
 
 El código anterior abrirá la cámara y buscará un QR válido para conectarse al dispositivo MiPOT. La respuesta se obtendrá implementando una extensión. Esta extensión se aplica a la clase tipo UIViewController de la pantalla en la que se implementa el lector QR y hereda del protocolo didFinishReceiveCode. 
 
