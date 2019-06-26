@@ -55,15 +55,15 @@ Para integrar MiPOT a tu aplicación se requiere agregar un permiso en la catego
 
 **2) Insertar el framework en tu proyecto.**
 
-  a) Ir al área de navegación.
-  b) Mostrar la lista de proyectos y targets y seleccionar el target.
-  c) Seleccionar botón "General" en la parte superior del área de edición.
-  d) Encontrar el apartado "Embeded Binaries".
-  e) Dar click en el botón de agregar.
-  f) Dar click en el botón "Add Other..."
-  g) Dirigirse a la dirección en la que se encuentra el archivo MiPOT.framework.
-  h) Seleccionar archivo y dar click en "Open".
-  i) Verificar que en la ventana emergente se encuentren seleccionadas las opciones "Copy items if needed" y "Create folder references".
+  1) Ir al área de navegación.
+  2) Mostrar la lista de proyectos y targets y seleccionar el target.
+  3) Seleccionar botón "General" en la parte superior del área de edición.
+  4) Encontrar el apartado "Embeded Binaries".
+  5) Dar click en el botón de agregar.
+  6) Dar click en el botón "Add Other..."
+  7) Dirigirse a la dirección en la que se encuentra el archivo MiPOT.framework.
+  8) Seleccionar archivo y dar click en "Open".
+  9) Verificar que en la ventana emergente se encuentren seleccionadas las opciones "Copy items if needed" y "Create folder references".
 
 **3) Realizar una prueba de verificación.**
 
