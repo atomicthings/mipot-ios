@@ -76,8 +76,6 @@ Si en las opciones de autocompletado aparece MiPOT, el framework se ha añadido 
 
 ## Lector QR  
 
-**Paso 1: Leer QR**
-
 Para abrir el escaner con la acción de un botón tenemos el siguiente código:
 
 ```
@@ -101,7 +99,7 @@ extension ViewController:didFinishReceiveCode{
 ## Conexión BLE
 Para la conexión BLE es importante:
 - Importar el framework CoreBluetooth
-- Contar con la cadena recuperada por la función ´´´codeSended(code: String)´´´.
+- Contar con la cadena recuperada por la función *codeSended(code: String)*.
 - Que el UIViewController de la pantalla en cuestión herede del protocolo CBCentralManagerDelegate.
 
 (PROTOCOLS DE ESTADO BLE)
