@@ -46,11 +46,11 @@ aplicación.
 
 Para integrar MiPOT a tu aplicación se requiere agregar un permiso en la categoría "Information Property List". Para ello:
 
-a) Ir al área de navegación.
-b) Abrir el archivo Info.plist y damos click secundario sobre la categoría "Information Property List" 
-c) Seleccionar opción "Add row" del menú emergente.
-d) Localizar el permiso llamado "Privacy - Camera Usage Description" y seleccionarlo.
-e) Escribir en el campo "Value" de este permiso en cuestión la siguiente descripción: "Esta app utilizará la cámara para escanear códigos QR".
+  a) Ir al área de navegación.
+  b) Abrir el archivo Info.plist y damos click secundario sobre la categoría "Information Property List" 
+  c) Seleccionar opción "Add row" del menú emergente.
+  d) Localizar el permiso llamado "Privacy - Camera Usage Description" y seleccionarlo.
+  e) Escribir en el campo "Value" de este permiso en cuestión la siguiente descripción: "Esta app utilizará la cámara para escanear códigos QR".
 (imagen)
 
 2) Insertar el framework en tu proyecto.
